@@ -1,0 +1,86 @@
+.page-title {
+  text-align: center;
+  padding: 0px 50px;
+  > h1 {
+    font-size: 34px;
+    border-bottom: 1px solid silver;
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+}
+
+.loader {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    padding: 40px;
+    letter-spacing: 0.3em;
+  }
+
+
+.header-image-container img {
+    width: 100%;
+    height: 240px;
+}
+.header-title {
+    background-color: #0f273a;
+    color: white;
+    padding: 1px 40px;
+   
+}
+
+@media only screen and (max-width: 600px) {
+  .header-image-container img{
+    height: 100px;
+    width:100%;
+}
+.header-title {
+  padding: 20px 0 20px 6px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+      flex-direction: column;
+  }
+  .header-image-container img{
+      height: 150px;
+  }
+  .header-title {
+    padding: 1px 0 1px 6px!important;
+  }
+  .main-container {
+      margin: 0 0 35px 0;
+  }
+  .feeds-container {
+      width: 100%;
+  }
+  .side-container {
+      border-top: 5px solid rgba(0,0,0,.87);;
+  }
+  .categories-container {
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  .site-footer {
+      margin-top: 25px;
+  }
+  .article-content .post-title,
+  .article-content .content-section,
+  .post-meta-container {
+      margin:  15px;
+  }
+  .article-category-wrapper {
+      margin: 15px 15px 15px;
+  }
+  .header-title {
+      padding: 1px 0 1px 20px;
+  }
+  .click-continue {
+      margin-top: 0;
+  }
+  .view-more-btn-container button{
+      margin-right: 20px;
+      margin-bottom: 20px;;
+  }
+}

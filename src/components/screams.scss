@@ -1,0 +1,117 @@
+.card-box {
+  display: flex;
+  margin: 30px 10px;
+  //padding: 20px;
+
+  .post-link {
+    text-decoration: inherit;
+    color: #2b2b2b;
+  }
+  .post-linked {
+    text-decoration: inherit;
+    color: rgb(38, 138, 231);
+    float: right;
+    cursor: pointer;
+    margin-left: 70%;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .thumbnail-wrapper {
+    flex: 7;
+    padding: 0px 6px;
+    flex-direction: row;
+    
+
+    .post-thumbnail {
+      width: 100%;
+      height: auto;
+  }
+  }
+ 
+  .content-wrapper {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+
+    .date {
+      font-style: inherit;;
+      font-size: 12px;
+      //letter-spacing: 0.1em;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      color: grey;
+    }
+
+    .title {
+      font-size: 30px;
+      font-weight: bolder;
+      text-transform: uppercase;
+      
+    }
+
+    .excerpt {
+      margin-top: 20px;
+      font-size: 18px;
+      font-style: 'Roboto';
+      font-weight: inherit;
+      font-family: inherit;
+      text-align: justify;
+    }
+  }
+}
+
+.card-box-row {
+  flex-direction: row;
+}
+
+.card-box-row-reverse {
+  flex-direction: row-reverse;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .container {
+      flex-direction: column;
+  }
+  .header-image-container img{
+      height: 150px;
+  }
+  .card-box {
+      margin: 0 0 0px 0;
+      width: 100%;
+  }
+  .thumbnail-wrapper {
+      width: 100%;
+  }
+  .side-container {
+      border-top: 5px solid rgba(0,0,0,.87);;
+  }
+  .categories-container {
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  .site-footer {
+      margin-top: 25px;
+  }
+  .article-content .post-title,
+  .article-content .content-section,
+  .post-meta-container {
+      margin:  15px;
+  }
+  .article-category-wrapper {
+      margin: 15px 15px 15px;
+  }
+  .header-title {
+      padding: 20px 0 20px 20px;
+  }
+  .post-linked {
+      margin-top: 0;
+      margin-left: 65px;
+  }
+  .view-more-btn-container button{
+      margin-right: 20px;
+      margin-bottom: 20px;;
+  }
+}
