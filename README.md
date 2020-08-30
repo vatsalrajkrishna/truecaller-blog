@@ -1,6 +1,6 @@
 # truecaller-blog
 Truecaller Blogging Website made by Node, Express, React and Wordpress REST API.\
-https://truecaller-blog.herokuapp.com/ \
+https://truecaller-fd1ef.web.app/ \
 \
 Ensure that Node is pre-installed on your system. \
 \
